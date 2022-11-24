@@ -73,7 +73,6 @@ export GOPATH=/go/
 mkdir -p /go/src/github.com/opencontainers
 cd /go/src/github.com/opencontainers
 
-cp -rf /usr/src/TContainer/runc .
 
 # add dependencies
 apt-get install libseccomp-dev 
@@ -93,6 +92,7 @@ apt-get install golang-go
 # go get github.com/coreos/go-tspi
 
 # make runc
+git clone https://github.com/opencontainers/runc.git
 cd runc/
 make 
 make install

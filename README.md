@@ -1,8 +1,8 @@
-# Trusted-Container for kernel 3.13.0
+#The experimental environment is as follows
 
 ## Quick Start
 
-Currently, we only support the Ubuntu 14.04 64bit.
+Currently, we only support the Ubuntu 14.04 64bit，Trusted-Container for kernel 3.13.0.
 
 ```
 root@wluo:~# cat /etc/lsb-release 

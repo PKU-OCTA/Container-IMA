@@ -1,8 +1,9 @@
-# The experimental environment is as follows
-
-## Quick Start
+# Laboratory operations are as follows
 
 Currently, we only support the Ubuntu 14.04 64bit，Trusted-Container for kernel 3.13.0.
+If you are interested in our research project, have questions or suggestions, you can contact the laboratory author.
+
+## Quick Start
 
 ```
 root@wluo:~# cat /etc/lsb-release 
